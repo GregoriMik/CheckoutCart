@@ -22,20 +22,26 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/color-01.css') }}">
     @livewireStyles
-    <title>Hello, world!</title>
+    <title>Shop</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    {{-- <h1>Hello, world!</h1> --}}
     <header>
         <ul class="nav justify-content-center">
             <li class="nav-item">
-            <a class="nav-link active" href="#">Shop</a>
+            <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Cart</a>
+            <a class="nav-link" href="/shop">Shop</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Disabled</a>
+            <a class="nav-link" href="/cart">Cart</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/checkout">Checkout</a>
+            </li>
+            <li disabled class="nav-item">
+                <a class="nav-link" href="/checkout">Confirm</a>
             </li>
         </ul>
     </header>
