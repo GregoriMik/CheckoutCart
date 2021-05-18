@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+/* Centrowanie oka w divie */
+/* Centrowanie oka w divie */
+/* ICONA FORM1 */
+.formEye1{
+    width:20px;
+    height:20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    background-image: url("../images/formIcons/blindEye.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .formEye2{
+    width:20px;
+    height:20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    background-image: url("../images/formIcons/seeingEye96.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+/* ICONA FORM1 */
+
+.examplePassword1{
+    position:relative;
+}
+
+div.eyes1{
+    width:20px;
+    height:20px;
+    position:absolute;
+    top:26px;
+    left:320px;
+    direction:rtl;
+    background-image: url("../images/eye.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.eyes2{
+    width:20px;
+    height:20px;
+    position:absolute;
+    top:26px;
+    left:320px;
+    direction:rtl;
+    background-image: url("../images/eye.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div>.shopConfirmPurchase{
+    margin-bottom: 2rem;
+    width:100%;
+    background-color: #dc3545;
+    color:white;
+    font-size: 14px;
+    text-align:center;
+    text-transform: uppercase;
+    line-height: 70px;
+    border-radius:0;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
+}
+div>.shopConfirmPurchase:hover{
+    border:2px solid #dc3545;
+    background-color: #fff;
+    color:#dc3545;
+}
+div > button .btn .btn-primary .btn-block{
+    background-color: #fff;
+    border: 2px solid #a89f8f;
+}
+.col-sm>div.form-check{
+    height:3rem;
+    color: #a89f8f;
+}
+div>.card-header{
+    background-color: #a89f8f;
+}
+.card-header>.card-header-content{
+    text-transform: uppercase;
+}
+.productSum{
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+}
+.textBold{
+    text-decoration: bold;
+}
+.textLSizeBold{
+    font-size: 120%;
+    font-weight: bold;
+}
+span {
+    font-weight: bold;
+}
+span:nth-child(2){
+    font-size: 16px;
+}
+textarea {
+    resize: none;
+    /* border:2px solid #a89f8f;  */
+}
+.areaBorder{
+    border:2px solid #a89f8f;
+  }
+  .resize{
+    width:120px;
+    height:100px;
+    margin:2px;
+    background-image: url("../images/products/digital_03.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .containerSection{
+    display:grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 80px; 
+    column-gap: 10px;
+  }
+
+  #input_container {
+    position:relative;
+    padding:0 0 0 30px;
+    margin:0 auto;
+    background-color:#a89f8f;
+    direction: ltr;
+    text-transform: uppercase;
+   /* width: 200px; */
+}
+.inputmargin{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#input_img {
+    position:absolute;
+    top:100%;
+    left:100%;
+    transform: translate(-50%, -100%);
+    left:2px;
+    line-height: 100%;
+    width:20px;
+    height:20px;
+    -webkit-transform: translate(-50%, -100%);
+    -moz-transform: translate(-50%, -100%);
+    -ms-transform: translate(-50%, -100%);
+    -o-transform: translate(-50%, -100%);
+}
+.card-header .two #input_img {
+    position:absolute;
+    top:100%;
+    left:100%;
+    transform: translate(-50%, -100%);
+    left:2px;
+    line-height: 100%;
+    width:40px;
+    height:20px;
+    -webkit-transform: translate(-50%, -100%);
+    -moz-transform: translate(-50%, -100%);
+    -ms-transform: translate(-50%, -100%);
+    -o-transform: translate(-50%, -100%);
+}
+.topbtn{
+    margin-top: 10px;
+}
+#input_img3{
+    position:absolute;
+    top:100%;
+    left:100%;
+    transform: translate(-50%, -100%);
+    left:2px;
+    line-height: 20px;
+    width:30px;
+    height:20px;
+    -webkit-transform: translate(-50%, -100%);
+    -moz-transform: translate(-50%, -100%);
+    -ms-transform: translate(-50%, -100%);
+    -o-transform: translate(-50%, -100%);
+}
+
+div>.discountCode{
+    border:2px solid #a89f8f;
+    background-color: white;
+    color:#a89f8f;
+    border-radius: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+div>.discountCode:hover{
+    border:2px solid #a89f8f;
+    background-color: #a89f8f;
+    color:white;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+.d-flex .justify-content-around{
+    width:120px;
+    height:100px;
+    margin:2px;
+    background-image: url("../images/products/digital_03.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.imageDiv1{
+    width:4rem;
+    height:3rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    /* background-color: #111; */
+    background-image: url("../images/deliveryMethods/inpost.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.imageDiv2{
+    width:4rem;
+    height:3rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    /* background-color: #111; */
+    background-image: url("../images/deliveryMethods/dpd.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.imageDiv3{
+    width:4rem;
+    height:3rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    /* background-color: #111; */
+    background-image: url("../images/deliveryMethods/dpd.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.imageDiv4{
+    width:4rem;
+    height:3rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    /* background-color: #111; */
+    background-image: url("../images/paymantMathods/payU.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.imageDiv5{
+    width:4rem;
+    height:3rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    /* background-color: #111; */
+    background-image: url("../images/paymantMathods/pobranie.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.imageDiv6{
+    width:4rem;
+    height:3rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    /* background-color: #111; */
+    background-image: url("../images/paymantMathods/przelew.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.mlauto {
+    margin-left: auto;
+}
+/* ROzmieszczenie elementów wewnątrz płatności */
+
+/* ROzmieszczenie elementów wewnątrz płatności */
+
+.remover{
+    display:none;
+}

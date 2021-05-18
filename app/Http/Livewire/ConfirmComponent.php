@@ -8,6 +8,6 @@ class ConfirmComponent extends Component
 {
     public function render()
     {
-        return view('livewire.confirm-component');
+        return view('livewire.confirm-component')->layout('layouts.base');
     }
 }

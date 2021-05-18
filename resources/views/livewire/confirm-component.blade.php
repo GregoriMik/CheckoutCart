@@ -1,3 +1,3 @@
 <div>
-    Confirm Component
+    Twoje zamówienie zostało przekazane do realizacji.
 </div>
