@@ -118,12 +118,15 @@ textarea {
     border:2px solid #a89f8f;
   }
   .resize{
+    display: flex;
     width:120px;
-    height:100px;
-    margin:2px;
-    background-image: url("../images/products/digital_03.jpg");
+    height:120px;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('../images/products/digital_14.jpg'); */
     background-size: contain;
     background-repeat: no-repeat;
+    vertical-align:center;
   }
 
   .containerSection{
