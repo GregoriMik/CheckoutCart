@@ -1,6 +1,11 @@
 <?php
 
 namespace App\Http\Livewire;
+use App\Models\Product;
+
+use App\Models\Payment;
+
+use App\Models\Delivery;
 
 use Livewire\Component;
 
