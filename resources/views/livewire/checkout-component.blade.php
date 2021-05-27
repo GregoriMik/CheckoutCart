@@ -161,73 +161,36 @@
         <div class="container">
           <form>
               <fieldset id="group1">
-
-                <div class="d-flex align-items-center">
-                  <div class="d-flex flex-column flex-start">
-                    <div class="p-2">
-                      <input class="delInput d-flex flex-start" id="g1v1" type="radio" value="value1" name="group1">
+                @foreach ($delivery as $deliver)
+                  <div class="d-flex align-items-center">
+                    <div class="d-flex flex-column flex-start">
+                      <div class="p-2">
+                        <input class="delInput d-flex flex-start" id="{{$deliver->idd}}" type="radio" value="{{$deliver->val}}" name="{{$deliver->nam}}">
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div class="p-2 align-items-center">
+                        <img class="resizes" src="{{ asset('assets/images/deliveryMethods') }}/{{$deliver->image}}" alt="{{$deliver->name}}"> 
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column">
+                      <div class="p-2 ">
+                        {{$deliver->title}}
+                      </div>
+                    </div>
+                    <div class="d-flex flex-column  mlauto">
+                      <div name="del_p"class="p-2 dpay"id="{{$deliver->price_id}}">
+                        {{$deliver->regular_price}}
+                      </div>
                     </div>
                   </div>
-                  <div class="d-flex flex-column">
-                    <div class="p-2 imageDiv1 align-items-center">
-                    </div>
-                  </div>
-                  <div class="d-flex flex-column">
-                    <div class="p-2 ">
-                      Paczkomaty 24/7
-                    </div>
-                  </div>
-                  <div class="d-flex flex-column  mlauto">
-                    <div class="p-2 ">22,00zł</div>
-                  </div>
-                </div>
-
-                <div class="d-flex align-items-center">
-                  <div class="d-flex flex-column flex-start">
-                    <div class="p-2">
-                      <input class="delInput d-flex flex-start" id="g1v2" type="radio" value="value2" name="group1">
-                    </div>
-                  </div>
-                  <div class="d-flex flex-column">
-                    <div class="p-2 imageDiv2 align-items-center">
-                    </div>
-                  </div>
-                  <div class="d-flex flex-column">
-                    <div class="p-2 ">
-                      Kurier DPD
-                    </div>
-                  </div>
-                  <div class="d-flex flex-column mlauto">
-                    <div class="p-2">18,00zł</div>
-                  </div>
-                </div>
-
-                <div class="d-flex align-items-center">
-                  <div class="d-flex flex-column flex-start">
-                    <div class="p-2">
-                      <input class="delInput d-flex flex-start" id="g1v3" type="radio" value="value3" name="group1">
-                    </div>
-                  </div>
-                  <div class="d-flex flex-column">
-                    <div class="p-2 imageDiv3 align-items-center">
-                    </div>
-                  </div>
-                  <div class="d-flex flex-column">
-                    <div class="p-2 ">
-                      Kurier DPD pobranie
-                    </div>
-                  </div>
-                  <div class="d-flex flex-column mlauto">
-                    <div class="p-2 ">22,00zł</div>
-                  </div>
-                </div>
-
+                @endforeach
 
                 
               </fieldset>
            </form>
         </div>
-
+        
           
           <div class="card-header two clearfix">
             <div id="input_container">
@@ -241,58 +204,25 @@
           <div class="container">
                 <form>
                   <fieldset id="group2">
-
-                    <div class="d-flex align-items-center">
-                      <div class="d-flex flex-column flex-start">
-                        <div class="p-2">
-                          <input class="payInput d-flex flex-start" id="g2v1" type="radio" value="value1" name="group2">
+                    @foreach ($payment as $pay)
+                      <div class="d-flex align-items-center">
+                        <div class="d-flex flex-column flex-start">
+                          <div class="p-2">
+                            <input class="payInput d-flex flex-start" id="{{$pay->idd}}" type="radio" value="{{$pay->val}}" name="{{$pay->nam}}">
+                          </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                          <div class="p-2 ">
+                            <label class="form-image-label " type="image" name="" id="" value="">
+                              <img class="resizes" src="{{ asset('assets/images/paymantMathods') }}/{{$pay->image}}" alt="{{$pay->title}}"> 
+                            </label>
+                          </div>
+                        </div>
+                        <div class="d-flex flex-column">
+                          <div class="p-2  ">{{$pay->title}}</div>
                         </div>
                       </div>
-                      <div class="d-flex flex-column">
-                        <div class="p-2 imageDiv4">
-                          <label class="form-image-label " type="image" name="" id="" value="">
-                          </label>
-                        </div>
-                      </div>
-                      <div class="d-flex flex-column">
-                        <div class="p-2 ">PayU</div>
-                      </div>
-                    </div>
-
-                    <div class="d-flex align-items-center">
-                      <div class="d-flex flex-column flex-start">
-                        <div class="p-2">
-                          <input class="payInput d-flex flex-start" id="g2v2" type="radio" value="value2" name="group2">
-                        </div>
-                      </div>
-                      <div class="d-flex flex-column">
-                        <div class="p-2 imageDiv5">
-                          <label class="form-image-label " type="image" name="" id="" value="">
-                          </label>
-                        </div>
-                      </div>
-                      <div class="d-flex flex-column ">
-                        <div class="p-2 ">Płatność przy odbiorze</div>
-                      </div>
-                    </div>
-
-                    <div class="d-flex align-items-center  ">
-                      <div class="d-flex flex-column flex-start">
-                        <div class="p-2">
-                          <input class="payInput d-flex flex-start" id="g2v3" type="radio" value="value3" name="group2">
-                        </div>
-                      </div>
-                      <div class="d-flex flex-column">
-                        <div class="p-2 imageDiv6">
-                          <label class="form-image-label " type="image" name="" id="" value="">
-                          </label>
-                        </div>
-                      </div>
-                      <div class="d-flex flex-column">
-                        <div class="p-2 ">Przelew bankowy zwykły</div>
-                      </div>
-                     </div>
-
+                    @endforeach
                   </fieldset>
                 </form>
           </div>
@@ -337,50 +267,25 @@
               <div class="p-2">{{$item->qty}}</div>
             </div>
             <div class="d-flex flex-column">
-              <div class="p-2 "><span>{{ $item->model->regular_price }}</span></div>
+              <div class="p-2 "><span>{{ $item->model->regular_price }} zł</span></div>
             </div>
            </div>
            @endforeach
-           {{-- @foreach (Cart::content() as $item)
-                        
-                    
-           <li class="pr-cart-item">
-               <div class="product-image">
-                   <figure><img src="{{ ('assets/images/products') }}/{{ $item->model->image }}" alt="{{$item->model->name}}"></figure>
-               </div>
-               <div class="product-name">
-                   <a class="link-to-product" href="{{ route('product.details',['slug'=>$item->model->slug]) }}">{{$item->model->name}}</a>
-               </div>
-               <div class="price-field produtc-price"><p class="price">{{ $item->model->regular_price }}</p></div>
-               <div class="quantity">
-                   <div class="quantity-input">
-                       <input type="text" name="product-quatity" value="{{$item->qty}}" data-max="120" pattern="[0-9]*" >									
-                       <a class="btn btn-increase" href="#"></a>
-                       <a class="btn btn-reduce" href="#"></a>
-                   </div>
-               </div>
-               <div class="price-field sub-total"><p class="price">{{$item->subtotal}}</p></div>
-               <div class="delete">
-                   <a href="#" class="btn btn-delete" title="">
-                       <span>Delete from your cart</span>
-                       <i class="fa fa-times-circle" aria-hidden="true"></i>
-                   </a>
-               </div>
-           </li>
-           @endforeach									 --}}
+           
            <div class="productSum">
            <div class="d-flex justify-content-around">
            <div class="d-flex flex-column">
-            <div class="p-2">Cena produktu</div>
+            <div class="p-2">Cena produktów</div>
             <div class="p-2">Vat</div>
             <div class="p-2">Dostawa</div>
             <div class="p-2 textLSizeBold">Łącznie</div>
           </div>
+          
           <div class="d-flex flex-column ">
-            <div class="p-2  mlauto">115,00zł</div>
-            <div class="p-2  mlauto">$cena*0,23)</div>
-            <div class="p-2  mlauto">16zł </div>
-            <div class="p-2  textLSizeBold mlauto">157,45zł </div>
+            <div class="p-2  mlauto">{{Cart::subtotal()}} zł</div>
+            <div class="p-2  mlauto">{{Cart::tax()}} zł</div>
+            <div id="confirm_deliver"name="del_name"class="p-2  mlauto">{{$deliver->regular_price}} zł</div>
+            <div class="p-2  textLSizeBold mlauto"id="t_total">{{Cart::total()}}zł</div>
           </div>
         </div>
       </div>

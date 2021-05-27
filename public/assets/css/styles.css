@@ -128,6 +128,17 @@ textarea {
     background-repeat: no-repeat;
     vertical-align:center;
   }
+  .resizes{
+    display: flex;
+    width:120px;
+    height:60px;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('../images/products/digital_14.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    vertical-align:center;
+  }
 
   .containerSection{
     display:grid;

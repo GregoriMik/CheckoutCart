@@ -28,6 +28,6 @@ Route::get('/cart',CartComponent::class)->name('product.cart');
 
 Route::get('/checkout',CheckoutComponent::class);
 
-Route::get('/confirm',CheckoutComponent::class);
+Route::get('/confirm',ConfirmComponent::class);
 
 Route::get('/product/{slug}',DetailsComponent::class)->name('product.details');

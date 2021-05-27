@@ -23,8 +23,12 @@ class DeliveryFactory extends Factory
     {
         $delivery_name = $this->faker->unique()->words($nb=2,$asText=true);
         return [
-            'name'=>$delivery_name,
-            'regular_price'=>$this->faker->numberBetween(1,54).".".$this->faker->numberBetween(1,54),            
+            'title'=>$delivery_name,
+            'regular_price'=>$this->faker->numberBetween(1,54).".".$this->faker->numberBetween(1,54),
+            'val'=>'',            
+            'nam'=>'',
+            'idd'=>$this->faker->numberBetween(1,3),
+            'price_id'=>$this->faker->numberBetween(1,3)
         ];
     }
 }

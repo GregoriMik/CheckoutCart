@@ -15,10 +15,14 @@ class CreateDeliveriesTable extends Migration
     {
         Schema::create('deliveries', function (Blueprint $table) {
             $table->id();
+            $table->text('idd')->nullable();
             $table->string('image')->nullable();
             $table->text('images')->nullable();
-            $table->string('name');
+            $table->string('title')->nullable();
+            $table->text('val')->nullable();
+            $table->text('nam')->nullable();
             $table->decimal('regular_price');
+            $table->text('price_id')->nullable();
             $table->timestamps();
         });
     }

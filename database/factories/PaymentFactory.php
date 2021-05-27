@@ -25,6 +25,9 @@ class PaymentFactory extends Factory
         return [
             'title'=>$payment_name,
             'image'=>'payment_',
+            'val'=>'',            
+            'nam'=>'',
+            'idd'=>$this->faker->numberBetween(1,3)
         ];
     }
 }
