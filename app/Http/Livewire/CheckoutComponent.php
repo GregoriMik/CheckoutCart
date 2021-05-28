@@ -11,11 +11,15 @@ use Livewire\Component;
 
 class CheckoutComponent extends Component
 {
+   
     public function render()
     {   
         $delivery= Delivery::all();
         $payment=Payment::all();
         $product=Product::all();
         return view('livewire.checkout-component',['delivery'=>$delivery,'payment'=>$payment])->layout('layouts.basee');
+    }
+    public function store(){
+        
     }
 }
