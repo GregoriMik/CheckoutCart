@@ -31,3 +31,7 @@ Route::get('/checkout',CheckoutComponent::class);
 Route::get('/confirm',ConfirmComponent::class);
 
 Route::get('/product/{slug}',DetailsComponent::class)->name('product.details');
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
