@@ -22,6 +22,7 @@ class DeliverySeeder extends Seeder
                         'val'=>'val1',
                         'nam'=>'group1',
                         'regular_price'=>'10.99',
+                        'currency'=>'zł',
                         'price_id'=>'price_id1',
                         
         ]);
@@ -33,6 +34,7 @@ class DeliverySeeder extends Seeder
                         'val'=>'val2',
                         'nam'=>'group1',
                         'regular_price'=>'18.00',
+                        'currency'=>'zł',
                         'price_id'=>'price_id2',
                         
         ]);
@@ -44,6 +46,7 @@ class DeliverySeeder extends Seeder
                         'val'=>'val3',
                         'nam'=>'group1',
                         'regular_price'=>'22.00',
+                        'currency'=>'zł',
                         'price_id'=>'price_id3',
                 
         ]);

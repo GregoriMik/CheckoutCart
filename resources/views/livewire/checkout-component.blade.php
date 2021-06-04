@@ -180,7 +180,7 @@
                     </div>
                     <div class="d-flex flex-column  mlauto">
                       <div name="del_p"class="p-2 dpay"id="{{$deliver->price_id}}">
-                        {{$deliver->regular_price}}
+                        {{$deliver->regular_price}}{{$deliver->currency}}
                       </div>
                     </div>
                   </div>
@@ -267,7 +267,7 @@
               <div class="p-2">{{$item->qty}}</div>
             </div>
             <div class="d-flex flex-column">
-              <div class="p-2 "><span>{{ $item->model->regular_price }} zł</span></div>
+              <div class="p-2 "><span>{{ $item->model->regular_price }}{{ $item->model->currency }}</span></div>
             </div>
            </div>
            @endforeach

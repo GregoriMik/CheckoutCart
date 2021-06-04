@@ -20,6 +20,7 @@ class CreateProductsTable extends Migration
             $table->string('short_description')->nullable();
             $table->text('description');
             $table->decimal('regular_price');
+            $table->text('currency');
             $table->decimal('sale_price')->nullable();
             $table->decimal('delivery_price')->default(0.00)->nullable();
             $table->string('SKU');

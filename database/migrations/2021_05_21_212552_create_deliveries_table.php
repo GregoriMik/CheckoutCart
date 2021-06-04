@@ -22,6 +22,7 @@ class CreateDeliveriesTable extends Migration
             $table->text('val')->nullable();
             $table->text('nam')->nullable();
             $table->decimal('regular_price');
+            $table->text('currency');
             $table->text('price_id')->nullable();
             $table->timestamps();
         });

@@ -28,7 +28,8 @@ class DeliveryFactory extends Factory
             'val'=>'',            
             'nam'=>'',
             'idd'=>$this->faker->numberBetween(1,3),
-            'price_id'=>$this->faker->numberBetween(1,3)
+            'price_id'=>$this->faker->numberBetween(1,3),
+            'currency'=>''
         ];
     }
 }
