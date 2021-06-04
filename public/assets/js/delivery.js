@@ -1,6 +1,7 @@
 let cd = document.getElementById('confirm_deliver');
 let tt = document.getElementById('t_total');
-let dlv
+const tts = parseFloat(document.getElementById('t_total').innerHTML);
+// const cds = parseFloat(document.getElementById('confirm_deliver').innerHTML);
 const val1= document.getElementById("g1v1");
 const val2= document.getElementById("g1v2");
 const val3= document.getElementById("g1v3");
@@ -89,5 +90,9 @@ val6.addEventListener("click",function(){
 });
 
 // confirm_deliver
+//Przechwytywanie ceny dostawy
 
+const sd = parseFloat(cd.textContent).toFixed(2);
+// const totaltotal = parseFloat(tt.textContent).toFixed(2);
+// let cc = tt2 + sd
 

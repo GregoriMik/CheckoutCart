@@ -28,12 +28,12 @@
                                 <img src="{{ asset('assets/images/products/digital_15.jpg') }}" alt="product thumbnail" />
                             </li>
 
-                            <li data-thumb="{{ asset('assets/images/products/digital_02.jpg') }}">
-                                <img src="{{ asset('assets/images/products/digital_02.jpg') }}" alt="product thumbnail" />
+                            <li data-thumb="{{ asset('assets/images/products/digital_2.jpg') }}">
+                                <img src="{{ asset('assets/images/products/digital_2.jpg') }}" alt="product thumbnail" />
                             </li>
 
-                            <li data-thumb="{{ asset('assets/images/products/digital_08.jpg') }}">
-                                <img src="{{ asset('assets/images/products/digital_08.jpg') }}" alt="product thumbnail" />
+                            <li data-thumb="{{ asset('assets/images/products/digital_8.jpg') }}">
+                                <img src="{{ asset('assets/images/products/digital_8.jpg') }}" alt="product thumbnail" />
                             </li>
 
                             <li data-thumb="{{ asset('assets/images/products/digital_10.jpg') }}">
@@ -248,8 +248,8 @@
                             <li class="product-item">
                                 <div class="product product-widget-style">
                                     <div class="thumbnnail">
-                                        <a href="detail.html" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
-                                            <figure><img src="{{ asset('assets/images/products/digital_01.jpg') }}" alt=""></figure>
+                                        <a href="/detail" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
+                                            <figure><img src="{{ asset('assets/images/products/digital_1.jpg') }}" alt=""></figure>
                                         </a>
                                     </div>
                                     <div class="product-info">
@@ -262,7 +262,7 @@
                             <li class="product-item">
                                 <div class="product product-widget-style">
                                     <div class="thumbnnail">
-                                        <a href="detail.html" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
+                                        <a href="/detail" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
                                             <figure><img src="{{ asset('assets/images/products/digital_17.jpg') }}" alt=""></figure>
                                         </a>
                                     </div>
@@ -276,7 +276,7 @@
                             <li class="product-item">
                                 <div class="product product-widget-style">
                                     <div class="thumbnnail">
-                                        <a href="detail.html" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
+                                        <a href="/detail" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
                                             <figure><img src="{{ asset('assets/images/products/digital_18.jpg') }}" alt=""></figure>
                                         </a>
                                     </div>
@@ -290,7 +290,7 @@
                             <li class="product-item">
                                 <div class="product product-widget-style">
                                     <div class="thumbnnail">
-                                        <a href="detail.html" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
+                                        <a href="/detail" title="Radiant-360 R6 Wireless Omnidirectional Speaker [White]">
                                             <figure><img src="{{ asset('assets/images/products/digital_20.jpg') }}" alt=""></figure>
                                         </a>
                                     </div>
@@ -315,8 +315,8 @@
 
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
-                                    <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                        <figure><img src="{{ asset('assets/images/products/digital_04.jpg') }}" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+                                    <a href="/detail" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="{{ asset('assets/images/products/digital_4.jpg') }}" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
                                     </a>
                                     <div class="group-flash">
                                         <span class="flash-item new-label">new</span>
@@ -333,7 +333,7 @@
 
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
-                                    <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                    <a href="/detail" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                         <figure><img src="{{ asset('assets/images/products/digital_17.jpg') }}" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
                                     </a>
                                     <div class="group-flash">
@@ -351,7 +351,7 @@
 
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
-                                    <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                    <a href="/detail" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                         <figure><img src="{{ asset('assets/images/products/digital_15.jpg') }}" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
                                     </a>
                                     <div class="group-flash">
@@ -370,8 +370,8 @@
 
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
-                                    <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                        <figure><img src="{{ asset('assets/images/products/digital_01.jpg') }}" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+                                    <a href="/detail" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="{{ asset('assets/images/products/digital_1.jpg') }}" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
                                     </a>
                                     <div class="group-flash">
                                         <span class="flash-item bestseller-label">Bestseller</span>
@@ -388,7 +388,7 @@
 
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
-                                    <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                    <a href="/detail" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
                                         <figure><img src="{{ asset('assets/images/products/digital_21.jpg') }}" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
                                     </a>
                                     <div class="wrap-btn">
@@ -403,8 +403,8 @@
 
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
-                                    <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                        <figure><img src="{{ asset('assets/images/products/digital_03.jpg') }}" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+                                    <a href="/detail" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="{{ asset('assets/images/products/digital_3.jpg') }}" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
                                     </a>
                                     <div class="group-flash">
                                         <span class="flash-item sale-label">sale</span>
@@ -421,8 +421,8 @@
 
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
-                                    <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                        <figure><img src="{{ asset('assets/images/products/digital_04.jpg') }}" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+                                    <a href="/detail" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="{{ asset('assets/images/products/digital_4.jpg') }}" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
                                     </a>
                                     <div class="group-flash">
                                         <span class="flash-item new-label">new</span>
@@ -439,8 +439,8 @@
 
                             <div class="product product-style-2 equal-elem ">
                                 <div class="product-thumnail">
-                                    <a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-                                        <figure><img src="{{ asset('assets/images/products/digital_05.jpg') }}" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+                                    <a href="/detail" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
+                                        <figure><img src="{{ asset('assets/images/products/digital_5.jpg') }}" width="214" height="214" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
                                     </a>
                                     <div class="group-flash">
                                         <span class="flash-item bestseller-label">Bestseller</span>

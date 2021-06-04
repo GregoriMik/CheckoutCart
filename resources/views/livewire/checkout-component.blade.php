@@ -284,7 +284,15 @@
           <div class="d-flex flex-column ">
             <div class="p-2  mlauto">{{Cart::subtotal()}} zł</div>
             <div class="p-2  mlauto">{{Cart::tax()}} zł</div>
-            <div id="confirm_deliver"name="del_name"class="p-2  mlauto">{{$deliver->regular_price}} zł</div>
+            <div id="confirm_deliver"name="del_name"class="p-2  mlauto">
+
+              @if (@isset($deliver->$this->regular_price))
+               <div>$deliver->$this->regular_price</div> zł
+              @else
+              0.00 zł
+              @endif
+              </div>
+              
             <div class="p-2  textLSizeBold mlauto"id="t_total">{{Cart::total()}}zł</div>
           </div>
         </div>
