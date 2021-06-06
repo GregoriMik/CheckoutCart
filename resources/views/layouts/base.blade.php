@@ -55,7 +55,7 @@
                                                         {{Auth::user()->name}}
                                                     </li>
                                                 </a>
-												{{-- <ul class="submenu curency" > --}}
+												
 													<li class="nav-item">
 														<a class="nav-link" title="Dashboard" href="{{ route('admin.dashboard')}}">Dashboard</a>
 													</li>
@@ -66,9 +66,7 @@
 														@csrf
 														
 													</form>
-                                                     <li class="nav-item">
-                                                    <a class="nav-link" href="/">Home</a>
-                                                    </li>
+
                                                     <li class="nav-item">
                                                     <a class="nav-link" href="/shop">Shop</a>
                                                     </li>
@@ -81,41 +79,41 @@
                                                     <li disabled class="nav-item">
                                                         <a class="nav-link" href="/checkout">Confirm</a>
                                                     </li> 				
-												{{-- </ul> --}}
-											    </li>
                                             </ul>
 										@else
 										{{-- // --}}
-											<li class="menu-item menu-item-has-children parent" >
-												<a title="My Account" href="#">My Account ({{Auth::user()->name}})<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-												<ul class="submenu curency" >
-													<li class="menu-item" >
-														<a title="Dashboard" href="{{ route('user.dashboard')}}">Dashboard</a>
-													</li>
-													<li class="menu-item">
-														<a href="{{ route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
-													</li>
-													<form id="logout-form" action="{{ route('logout') }}" method="post">
-														@csrf
-														
-													</form>	
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="/">Home</a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                        <a class="nav-link" href="/shop">Shop</a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                        <a class="nav-link" href="/cart">Cart</a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a class="nav-link" href="/checkout">Checkout</a>
-                                                        </li>
-                                                        <li disabled class="nav-item">
-                                                            <a class="nav-link" href="/checkout">Confirm</a>
-                                                        </li> 												
-												</ul>
-											</li>
+                                        <ul class="nav justify-content-center">
+                                            <li class="nav-item" >
+                                            <a class="nav-link" title="My Account" >
+                                                <li class="nav-item">
+                                                    {{Auth::user()->name}}
+                                                </li>
+                                            </a>
+                                            
+                                                <li class="nav-item">
+                                                    <a class="nav-link" title="Dashboard" href="{{ route('user.dashboard')}}">Dashboard</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="{{ route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
+                                                </li>
+                                                <form id="logout-form" action="{{ route('logout') }}" method="post">
+                                                    @csrf
+                                                    
+                                                </form>
+
+                                                <li class="nav-item">
+                                                <a class="nav-link" href="/shop">Shop</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                <a class="nav-link" href="/cart">Cart</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="/checkout">Checkout</a>
+                                                </li>
+                                                <li disabled class="nav-item">
+                                                    <a class="nav-link" href="/checkout">Confirm</a>
+                                                </li> 				
+                                        </ul>
 										@endif
                 @else
                         <li class="nav-item">
